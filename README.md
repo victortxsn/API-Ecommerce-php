@@ -39,4 +39,4 @@ API desenvolvida em **PHP** utilizando **Programação Orientada a Objetos (POO)
 1. Clone o repositório ou baixe os arquivos para a pasta do seu servidor local (ex: `C:\XAMPP\htdocs\`).
 2. Inicie os serviços do **Apache** e **MySQL** no XAMPP.
 3. Importe o arquivo `database.sql` no seu gerenciador MySQL (phpMyAdmin) para criar o banco de dados `loja_api` e a tabela `produtos`.
-4. Acesse a API via `http://localhost/api-loja/` usando seu navegador ou cliente HTTP no VSCode (Thunder Client).
+4. Acesse a API via `http://localhost/api-loja/` usando seu navegador ou cliente HTTP (ex.:Extensão Thunder Client no VSCode).
