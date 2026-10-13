@@ -82,4 +82,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'PATCH') {
     }
 }
 
+/*
+Implementar tratamento de exceções no index.php;
+Index funcionando mais como uma espécie de controladora(arquitetura mvc);
+Tratando pdos exceptions;
+Devolvendo códigos de erros e sucessos p    ro cliente.
+
+Alterações no código pra fazer
+a pedido do guimarães*/
+
 ?>
