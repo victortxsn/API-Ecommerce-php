@@ -62,7 +62,7 @@ API desenvolvida em **PHP** utilizando **Programação Orientada a Objetos (POO)
 
 ---
 
-### 3️⃣ **DELETE `/`** - Deletar Produto
+### 4️⃣ **DELETE `/`** - Deletar Produto
 - **Método:** `DELETE`
 - **URL:** `http://localhost/loja_api/index.php`
 - **Header:** `Content-Type: application/json`
@@ -72,11 +72,13 @@ API desenvolvida em **PHP** utilizando **Programação Orientada a Objetos (POO)
   "id": 1
 }
 
-### 3️⃣ **PATCH `/`** - Processar Venda (Baixa no Estoque)
+---
+
+### 5️⃣ **PATCH `/`** - Processar Venda (Baixa no Estoque)
 - **Método:** `PATCH`
 - **URL:** `http://localhost/loja_api/index.php`
 - **Header:** `Content-Type: application/json`
-- **Status de Sucesso:** `200 OK` | **Status de Erro:** `404 Not Found`
+- **Status de Sucesso:** `200 OK` | **Status de Erro:** `404 Not Found / 400 Bad Request`
 - **Body (JSON):**
 {
   "id": 1,
