@@ -107,7 +107,8 @@ try {
                 $resultado = $produto->vender($dados->id, $dados->quantidade);
                 
                 // O método vender() devolve o código HTTP correto 
-                // (Ex: 200 para Sucesso, 400 para Estoque Insuficiente ou 404 para Não Encontrado)
+                // (Ex: 200 para Sucesso, 400 para Estoque Insuficiente 
+                //                     ou 404 para Não Encontrado)
                 http_response_code($resultado['codigo']);
                 
                 // Retorna a mensagem correspondente em formato JSON
